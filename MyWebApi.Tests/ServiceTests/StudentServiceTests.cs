@@ -33,7 +33,7 @@ namespace MyWebApi.Tests.ServiceTests
 
             Services.AddSingleton(Configuration);
             //Services.AddSingleton(Logger);
-
+         
 
         _sampleServiceMock = MockServicesRegistrations<ISampleService, SampleService>();
         }
